@@ -68,7 +68,7 @@ let gitAddCode = 'git add . or git add'
 */
 
 //CODE HERE
-let gitCommitDefinition = 'Git commit get a copy of your code/repo at the point of where it was last saved at'
+let gitCommitDefinition = 'Git commit saves your changes'
 let gitCommitCode = 'git commit -m "initial commit'
 
 //////////////////PROBLEM 8////////////////////
@@ -78,4 +78,4 @@ let gitCommitCode = 'git commit -m "initial commit'
 */
 
 //CODE HERE
-let gitPushDefinition = 'Git push allows you to push up your updated version or code and if its your first time you do git add push'
+let gitPushDefinition = 'Git push allows you to push up your updated version of code to Github and if its your first time you do git add push'

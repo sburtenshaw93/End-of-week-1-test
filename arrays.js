@@ -6,13 +6,14 @@ const faveColors = ['red', 'green', 'black']
 //CODE HERE
 copyOfFavoriteColors = faveColors.slice()
 console.log(copyOfFavoriteColors)
-
+// used slice to copy the array into a new variable//
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
 faveColors.push('white')
 console.log(faveColors)
+// pushed to faveColors to add white to the list//
 //////////////////PROBLEM 3////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -24,6 +25,7 @@ const numbers = [1, 2, 3, 4, 5]
 //CODE HERE
 let middleNums = numbers.slice(1,4)
 console.log(middleNums)
+// used slice to take a portion of the array to add to a new variable//
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -48,3 +50,4 @@ for (i = 0; i < bigOrSmallArray.length; i++){
  }
 
 console.log(answers)
+// created a for loop to let you know which numbers are 100 and below are smaller and 100 and above is bigger//

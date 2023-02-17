@@ -59,7 +59,7 @@ for (i = 0; i < fujiAcres.length; i++){
 } 
 console.log(totalAcres)
 
-
+// Used one for loop since there was 7 days in a week and was easier to place into one loop instead of three//
 // PROBLEM 2
 
 /*
@@ -78,7 +78,7 @@ let averageDailyAcres = totalAcres / fujiAcres.length;
 console.log(averageDailyAcres)
 
 
-
+// did the average of the total week by dividing the totalAcres by fujiAcres to get the average//
 
 // PROBLEM 3
 
@@ -118,7 +118,7 @@ while (acresLeft > 0){
     acresLeft -= averageDailyAcres
 }
 console.log(days)
-
+// did the while loop to help figureout how many days it would take to complete all of the acres and all three orchards//
 // PROBLEM 4
 
 /*
@@ -158,7 +158,7 @@ console.log(fujiTons)
 console.log(galaTons)
 console.log(pinkTons)
 
-
+//Figureing out how many tons were picked per day on the orchards//
 
 // PROBLEM 5
 
@@ -190,7 +190,7 @@ console.log(fujiPounds)
 console.log(galaPounds)
 console.log(pinkPounds)
 
-
+//Converting from tons to pounds to help figureout the profit//
 
 
 // PROBLEM 6
@@ -221,7 +221,7 @@ console.log(galaProfit)
 console.log(pinkProfit)
 
 
-
+//figuring out the profit from the pounds that week from all three orchards//
 
 
 
@@ -240,3 +240,5 @@ console.log("______________")
 
 let totalProfit = (fujiProfit + galaProfit + pinkProfit)
 console.log("$", totalProfit)
+
+//total profit for that week from all three orchards//
